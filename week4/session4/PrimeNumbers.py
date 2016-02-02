@@ -26,9 +26,9 @@ def main():
 
             if count % NUMBER_PER_LINE == 0:
                 # Print the number and advance to the new line
-                print(" " + str(number))
+                print(" " + str(format(number,'4d')))
             else:
-                print(" " + str(number), end = "")
+                print(" " + str(format(number,'4d')), end = "")
 
         # Check if the next number is prime
         number += 1
