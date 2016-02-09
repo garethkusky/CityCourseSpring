@@ -33,4 +33,4 @@ def main():
     print("The first 50 prime numbers are")
     printPrimeNumbers(50)
 
-main() # Call the main function
+#main() # Call the main function

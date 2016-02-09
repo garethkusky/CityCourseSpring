@@ -31,7 +31,8 @@ def main ():
     curfeet=1.0
     curmeter=20.0
     for i in range (0,10):
-        print (format(str(curfeet),'<6s'),format(str(footToMeter(curfeet)),'<6s')," | ",format(str(curmeter),'<6s'),format(str(meterToFoot(curmeter)),'<6s'))
+        print (format(str(curfeet),'<6s'),format(str(footToMeter(curfeet)),'<6s')," | ",
+               format(str(curmeter),'<6s'),format(str(meterToFoot(curmeter)),'<6s'))
         curfeet +=1
         curmeter +=6
 
