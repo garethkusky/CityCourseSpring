@@ -15,7 +15,7 @@ def main():
 
     # Open file for reading binary
     infile = open("numbers.dat", "rb")
-    
+
     end_of_file = False
     while not end_of_file:
         try:
